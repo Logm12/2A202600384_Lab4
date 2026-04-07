@@ -3,6 +3,7 @@
 Bạn: Xin chào, tôi đang muốn đi du lịch nhưng chưa biết đi đâu
 
 TravelBuddy đang suy nghĩ...
+  
   [Log] Trả lời trực tiếp
 
 TravelBuddy: Chào bạn! Rất vui được giúp đỡ bạn lên kế hoạch cho chuyến đi. Bạn có thể cho mình biết một số thông tin như thời gian bạn dự định đi, ngân sách bạn có và bạn thích khám phá địa điểm nào (biển, núi, thành phố, văn hóa, ẩm thực, v.v.) không?
@@ -12,6 +13,7 @@ TravelBuddy: Chào bạn! Rất vui được giúp đỡ bạn lên kế hoạch
 Bạn: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
 
 TravelBuddy đang suy nghĩ...
+  
   [Log] Trả lời trực tiếp
 
 TravelBuddy: Bạn dự định đi Đà Nẵng vào ngày nào? Và có ai đi cùng bạn không? Điều này sẽ giúp tôi tìm kiếm chuyến bay chính xác hơn.
@@ -21,9 +23,13 @@ TravelBuddy: Bạn dự định đi Đà Nẵng vào ngày nào? Và có ai đi 
 Bạn: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
 
 TravelBuddy đang suy nghĩ...
+  
   [Log] Gọi tool: search_flights({'origin': 'Hà Nội', 'destination': 'Phú Quốc'})
+  
   [Log] Gọi tool: calculate_budget({'total_budget': 5000000, 'expenses': 'vé máy bay: 1350000'})
+  
   [Log] Gọi tool: search_hotels({'city': 'Phú Quốc', 'max_price_per_night': 1825000})
+  
   [Log] Trả lời trực tiếp
 
 TravelBuddy: Dưới đây là thông tin chuyến đi của bạn từ Hà Nội đến Phú Quốc:
@@ -68,6 +74,7 @@ TravelBuddy: Dưới đây là thông tin chuyến đi của bạn từ Hà Nộ
 Bạn: Tôi muốn đặt khách sạn
 
 TravelBuddy đang suy nghĩ...
+  
   [Log] Trả lời trực tiếp
 
 TravelBuddy: Tuyệt vời! Bạn có thể cho mình biết bạn muốn đặt khách sạn ở đâu, ngân sách mỗi đêm là bao nhiêu, và thời gian bạn dự định lưu trú không?
@@ -77,6 +84,7 @@ TravelBuddy: Tuyệt vời! Bạn có thể cho mình biết bạn muốn đặt
 Bạn: Giải giúp tôi bài tập lập trình Python về linked list
 
 TravelBuddy đang suy nghĩ...
+  
   [Log] Trả lời trực tiếp
 
 TravelBuddy: Xin lỗi, nhưng mình không thể giúp bạn với yêu cầu đó. Tuy nhiên, nếu bạn có bất kỳ câu hỏi hay cần trợ giúp về du lịch, hãy cho mình biết nhé!
